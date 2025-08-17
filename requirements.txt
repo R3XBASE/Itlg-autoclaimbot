@@ -1,0 +1,5 @@
+python-telegram-bot==20.3  # Versi terbaru, adjust jika perlu
+httpx==0.24.1
+pytz==2023.3
+aiohttp==3.8.4  # Jika diperlukan untuk async
+# Tambahkan jika ada: logging, json, os, time, datetime, random (built-in, tak perlu list)
