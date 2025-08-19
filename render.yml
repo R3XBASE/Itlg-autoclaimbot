@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: interlink-telegram-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: ENABLE_DETAILED_LOGS
+        value: "true"
