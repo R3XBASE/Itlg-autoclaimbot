@@ -1,2 +1,2 @@
 # Itlg-autoclaimbot
-interlink auto claim 
+interlink auto claims
